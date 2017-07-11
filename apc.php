@@ -43,7 +43,7 @@ function cache_info($limit = false)
             <form method="post" action="/apc.php">
                 <input type="hidden" name="clear" id="clear">
                 <div class="row">
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-5">
                         <table class="table table-bordered table-hover table-striped">
                             <caption>APCu</caption>
                             <tbody>
@@ -60,7 +60,7 @@ function cache_info($limit = false)
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-7 col-lg-6">
                         <table class="table table-bordered table-hover table-striped">
                             <caption>OPcache</caption>
                             <tbody>
